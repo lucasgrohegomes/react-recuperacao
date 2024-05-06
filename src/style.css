@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+    color:black;
+}
+
+.banner-container{
+    display: flex;
+    background-blend-mode: overlay;
+    flex-direction: column;
+}
+
+
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-blend-mode: overlay;
+    background-color: dimgray;
+    
+}
+
+.banner img{
+    width: 100%;
+    height: 400px;
+    opacity: 30%;
+}
+
+.banner h1{
+    position: absolute;
+    color: white;
+}
+
+.book-container{
+    display: flex;
+    align-items: center;
+
+}
+.book-container img{
+    padding: 30px;
+    height: 500px;
+    width: 350px; 
+}
+
+.props{
+    padding: 10px;
+}
+.props h1{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+.props h4{
+    padding-bottom: 30px;
+}
+
+.gallery-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery-1{
+    display: flex;
+    flex-direction: row;
+}
+
+.gallery-2{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 30px;
+
+}
+
+.gallery-image img{
+    height: 350px;
+    padding:30px;
+}
+
+.gallery-image h3{
+    padding-left:30px;
+}
+
+.gallery-image p{
+    padding-left:30px;
+}
+
+.gallery-image img:hover{
+    opacity: 40%;
+}
+
+.border-container{
+    padding: 30px;
+    background-color: darkblue;
+}
+
+.border-container h2{
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    header{
+        padding: 0;
+    }
+    
+    .banner-container{
+        width: 100%;
+        padding: 0;
+    }
+
+    .border-container{
+        width: 54vw;
+        height: 15px;
+    }
+
+    .border-container h2{
+        font-size: 18px;
+    }
+    
+    .banner{
+        width: 68vw;
+        font-size: 8px;
+    }
+
+    .banner h1{
+        height: auto;
+    }
+
+    .banner img{
+        height: auto;
+    }
+
+    .book-container{
+        width: 54vw;
+        display: block;
+
+    }
+
+    .book-container img{
+        padding-left: 60px;
+        width: 40vw;
+        height: auto;
+    }
+
+    .props{
+        padding-left: 43px;
+        width: 48vw;
+        text-align: justify;
+    
+    }
+
+    .props h1{
+        font-size: 25px;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .gallery-container{
+        display:block;
+    }
+
+    .gallery-1{
+        display: block;
+    }
+
+    .gallery-2{
+        display: block;
+
+    }
+
+    .gallery-image img{
+        height: 200px;
+    }
+
+}
+
